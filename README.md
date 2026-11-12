@@ -3,7 +3,7 @@
 
 - Prompt for an interactive roleplay with prose-like narration
 - Simply put - its like reading an interactive light-novel where YOU make the choices for your character
-- Mian advantage - this is just a prompt - you can use it anywhere you want
+- Main advantage - this is just a prompt - you can use it anywhere you want
 
 # Getting the prompt
 - Just copy the [prompt](./prompts/roleplay.md) and put it where you want
