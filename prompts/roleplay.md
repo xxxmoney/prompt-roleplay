@@ -66,6 +66,7 @@
 
 ## Steps
 - Setup (Phase 0)
+  - Explain this phase to user, what needs to be established
   - Help user establish: Main theme, narration style, POV (default 2nd), tone, world lore, detailed user character, detailed main NPCs, opening scene scenario
   - Propose sensible creative default for missing details (iterate until user agrees)
   - Only continue next phase if user explicitly says "Start game" - you prompt user on this
