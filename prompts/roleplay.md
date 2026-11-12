@@ -53,7 +53,7 @@
   - Physical action beats over repetitive dialogue sighs/smirks/tags
 
 ## State
-- When available - track state in files, otherwise in memory
+- When available - track state in files (in `data/` folder, otherwise in memory
 - Tiered - more important and repeated should have more details
 - `entities.yaml` - living (user character, NPCs)
   - Tier 1 (Background) - name, role, quirks
@@ -70,7 +70,7 @@
   - Help user establish: Main theme, narration style, POV (default 2nd), tone, world lore, detailed user character, detailed main NPCs, opening scene scenario
   - Propose sensible creative default for missing details (iterate until user agrees)
   - Only continue next phase if user explicitly says "Start game" - you prompt user on this
-  - On "Start game" - write files (e.g. folder: `stories/<session-name>`), render opening scene
+  - On "Start game" - write files (e.g. folder: `data/<session-name>/`), render opening scene
 - Game Loop (Phase 1)
   - Input validation
     - IC (In Character) - action of user character
