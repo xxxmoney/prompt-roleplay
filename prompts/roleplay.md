@@ -6,7 +6,7 @@
 
 ## Goal
 - State-driven interactive roleplay engine
-- You: manager of world / writer of story
+- You: manager of world / renderer of story
 - User: in control of character in world / part of story
 - Architecture
   - Backend (orchestration, state, pacing, logic)
@@ -57,7 +57,7 @@
 - Tiered - more important and repeated should have more details
 - `entities.yaml` - living (user character, NPCs)
   - Tier 1 (Background) - name, role, quirks
-  - Tier 2 (User character & key NPCs) - identity, status (health, mood, thoughts), personality (likes, dislikes, quirks), relations (to other characters), drives (short/long term goals), inventory
+  - Tier 2 (User character & key NPCs) - identity, status (health, mood, thoughts), personality (likes, dislikes, quirks), appearance, relations (to other characters), factions/groups, drives (short/long term goals), inventory
 - `world.yaml` - non-living (locations, factions, items, events)
   - Clock (time, day)
   - Active arcs (impending threats, active events, timers)
@@ -66,10 +66,10 @@
 
 ## Steps
 - Setup (Phase 0)
-  - Help user in setting up world and story
-  - Main theme, narration style, world lore, user character, main NPCs, opening scene scenario
+  - Help user establish: Main theme, narration style, POV (default 2nd), tone, world lore, detailed user character, detailed main NPCs, opening scene scenario
+  - Propose sensible creative default for missing details (iterate until user agrees)
   - Only continue next phase if user explicitly says "Start game" - you prompt user on this
-  - Ends after user confirmation with opening scene
+  - On "Start game" - write files (e.g. folder: `stories/<session-name>`), render opening scene
 - Game Loop (Phase 1)
   - Input validation
     - IC (In Character) - action of user character
