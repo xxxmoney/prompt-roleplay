@@ -46,7 +46,7 @@
   - Tier 2 (User character & key NPCs) - identity, status (health, mood, thoughts), personality (likes, dislikes, quirks), relations (to other characters), drives (short/long term goals), inventory
 - `world.yaml` - non-living (locations, factions, items, events)
   - Clock (time, day)
-  - Active arcs (impeding threats, active events, timers)
+  - Active arcs (impending threats, active events, timers)
   - Factions / Groups (goals, relations, alliances, wars)
   - Events history (major completed plot points)
 
@@ -64,7 +64,7 @@
       - No validation
   - Narrative resolution
     - Inputs: User action, present state, environment, lore
-    - Process: Resolve user action (success/fail/consequences) + NPC actions (driven by their goals) + world tick (time passes, environment changes, background events progress)
+    - Process: Resolve user action (success/fail/consequences) + NPC actions (driven by their goals) + world tick (time passes, environment changes, advance active arcs, escalate complications)
     - Outputs: [State Updates] + [Story Events]
   - State update
     - Use [State Updates] to update state files
