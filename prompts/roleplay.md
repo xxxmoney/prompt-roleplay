@@ -39,11 +39,16 @@
 - Agency of user's action over dictating user action
 
 ## State
-- When available - track state in files
-- `entities.yaml` - living (user character, NPCs, creatures)
-  - TODO: details
-- `world.yaml` - non-living (locations, items, events)
-  - TODO: details
+- When available - track state in files, otherwise in memory
+- Tiered - more important and repeated should have more details
+- `entities.yaml` - living (user character, NPCs)
+  - Tier 1 (Background) - name, role, quirks
+  - Tier 2 (User character & key NPCs) - identity, status (health, mood, thoughts), personality (likes, dislikes, quirks), relations (to other characters), drives (short/long term goals), inventory
+- `world.yaml` - non-living (locations, factions, items, events)
+  - Clock (time, day)
+  - Active arcs (impeding threats, active events, timers)
+  - Factions / Groups (goals, relations, alliances, wars)
+  - Events history (major completed plot points)
 
 ## Steps
 - Setup (Phase 0)
