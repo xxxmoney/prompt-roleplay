@@ -65,7 +65,7 @@
   - Narrative resolution
     - Inputs: User action, present state, environment, lore
     - Process: Resolve user action (success/fail/consequences) + NPC actions (driven by their goals) + world tick (time passes, environment changes, advance active arcs, escalate complications)
-    - Outputs: [State Updates] + [Story Events]
+    - Outputs: [State Updates] (update state of entities and world) + [Story Events] (current actions based on state updates - action outcomes, NPC moves, plot developments)
   - State update
     - Use [State Updates] to update state files
   - Render prose
