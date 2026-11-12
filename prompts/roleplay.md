@@ -22,7 +22,7 @@
   - Use understandable language, typical words, common but intriguing phrases
 - OOC
   - Out of Character, in brackets [], meta talk, you and user
-  - Conciseness is main focus - response terse like smart caveman
+  - Conciseness is main focus - respond terse like smart caveman
   - Drop: all fluff from sentences, articles, filler, pleasantries, hedging, capitalization, punctuation, dots
   - Prefer: short synonyms, abbreviate, strip conjunctions, arrows for causality, one word if enough
 
@@ -54,12 +54,12 @@
 - Game Loop (Phase 1)
   - Input validation
     - IC (In Character) - action of user character
-      - Validation: check if the user action is possible, logical, lore-consistent
+      - Validation: check if the user action is possible, logical, lore-consistent -> rejection of invalid in OOC with reason
     - OOC (Out of Character) - meta talk
       - No validation
   - Narrative resolution
-    - Inputs: User and characters' actions (success/fail/consequences), present state, environment, lore
-    - Process: User check + NPC actions + world tick (time pass, environment change, background events progress)
+    - Inputs: User action, present state, environment, lore
+    - Process: Resolve user action (success/fail/consequences) + NPC actions (driven by their goals) + world tick (time passes, environment changes, background events progress)
     - Outputs: [State Updates] + [Story Events]
   - State update
     - Use [State Updates] to update state files
