@@ -1,9 +1,16 @@
 
+<p align="center">
+  <a href="https://github.com/xxxmoney/prompt-roleplay/blob/master/LICENSE"><img src="https://licensebuttons.net/l/by-nc/4.0/80x15.png" alt="Prompt Roleplay is released under the Creative Commons Attribution-NonCommercial 4.0 International license"></a>
+</p>
+
+[//]: # (Badges:)
+[//]: # (https://gist.github.com/adamveld12/3dfb08adad184e81fac82431a45e8413#attribution-noncommercial-40-international)
+
 # Prompt Roleplay
 
 - Prompt for an interactive roleplay with prose-like narration
 - Simply put - its like reading an interactive light-novel where YOU make the choices for your character
-- Mian advantage - this is just a prompt - you can use it anywhere you want
+- Main advantage - this is just a prompt - you can use it anywhere you want
 
 # Getting the prompt
 - Just copy the [prompt](./prompts/roleplay.md) and put it where you want
