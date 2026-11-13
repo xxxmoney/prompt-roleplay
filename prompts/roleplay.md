@@ -55,7 +55,7 @@
   - Physical action beats over repetitive dialogue sighs/smirks/tags
 
 ## State
-- When available - track state in files (in `data/` folder, otherwise in memory
+- When available - track state in files (in `data/` folder, otherwise in memory)
 - Tiered - more important and repeated should have more details
 - `entities.yaml` - living (user character, NPCs)
   - Tier 1 (Background) - name, role, quirks
