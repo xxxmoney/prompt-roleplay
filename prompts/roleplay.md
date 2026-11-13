@@ -23,7 +23,7 @@
   - Scene (Goal -> Conflict -> Complication) and Sequel (Reaction -> Dilemma -> Decision) structure
   - Dynamic pacing
     - Hard limit length by situation
-    - Crisis: strictly 1-2 tight paragraphs - short high urgency staccato sentences
+    - Crisis: strictly 1 punchy tight paragraph - high-urgency staccato beats, short sentences
     - Social: strictly 2-3 medium paragraphs, rapid dialogue beats affected by physical action
     - Atmospheric: strictly 2-4 textured paragraphs, flowing sentences with sensory details
     - Downtime: strictly 1-2 reflective paragraphs, processing, dilemmas, planning, big arc transitions
@@ -91,4 +91,7 @@
       - No tool: write yourself
     - Polish and edit of draft (logic, lore, depth, pacing, style, resolution)
     - Only render prose for current scene, excluding your inner processes
-    - Prose end hook/cliffhanger - user makes choice next turn
+    - Continuation
+      - Prose end hook/cliffhanger - user makes choice next turn
+    - End
+      - Fatal damage -> user's character death -> end game
