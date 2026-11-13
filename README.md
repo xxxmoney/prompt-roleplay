@@ -3,6 +3,9 @@
   <a href="https://github.com/xxxmoney/prompt-roleplay/blob/master/LICENSE"><img src="https://licensebuttons.net/l/by-nc/4.0/80x15.png" alt="Prompt Roleplay is released under the Creative Commons Attribution-NonCommercial 4.0 International license"></a>
 </p>
 
+[//]: # (Badges:)
+[//]: # (https://gist.github.com/adamveld12/3dfb08adad184e81fac82431a45e8413#attribution-noncommercial-40-international)
+
 # Prompt Roleplay
 
 - Prompt for an interactive roleplay with prose-like narration
