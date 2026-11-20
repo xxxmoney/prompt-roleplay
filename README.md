@@ -35,12 +35,13 @@
 - Current
   - [roleplay](./prompts/roleplay.md)
   - Most recent variant of the roleplay prompt
-  - As of now WIP
   - Goals to improve in this one:
     - Non-vibe-coded (as in sense written manually, but with AI help) variant of the previous one [11-12-2026](./prompts/previous/11-12-2026.md)
     - Narrative action more driven by manager
     - Usable without llm tool - dependant on current model prose-writing capability
     - More performant, concise, easier to understand
+    - Driven by story manager, not user
+    - Short and long term story goals
 - Previous
   - [11-12-2026](./prompts/previous/11-12-2026.md)
   - Previous variant of the roleplay prompt
