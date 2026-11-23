@@ -76,7 +76,9 @@
 - Game Loop (Phase 1)
   - Input validation
     - IC (In Character) - action of user character
-      - Validation: check if the user action is possible, logical, lore-consistent -> rejection of invalid in OOC with reason
+      - Validation: 
+        - User action not: possible / logical / lore-consistent -> rejection of invalid in OOC with reason
+        - Lore fabrication / unearned claims / retcon / unrecorded history / non-existent items -> diegetically fail in character with complication (like DND GM handles player's BS)
     - OOC (Out of Character) - meta talk
       - No validation
   - Narrative resolution
