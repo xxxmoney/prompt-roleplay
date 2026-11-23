@@ -17,11 +17,30 @@
   - When using Agentic Environments - put in folder like `.agents/`, etc
   - When using in Chat tools - just paste in chat as first message
 
+# Getting started
+- Use the prompt
+- Write `[Lets get started]'
+
 # Usage
-- TODO - how to use the prompt - like the setting up story, OOC, etc
+- Use with LLM of your choice
+- You are a user of the prompt
+  - Which means either playing as a character in the story (RP mode)
+  - Or meta talk with the LLM (OOC mode)
+- First message should be in OOC (as in [details](#getting-started)) - to set up the story
+  - LLM will help you with setting the story up
+- Than you can switch between RP and OOC as you want
+- More details in the [details](#details) section
 
 # Details
-- TODO - how does the concept work - BE/FE - manager vs the llm tool
+- LLM acts as a story manager and narrator
+  - Essentially handles the lore, action resolution, narrative prose
+  - User acts as his character in the story
+- Speech modes
+  - RP
+    - User writes actions, dialogue for his character
+  - OOC
+    - Out of Character, in brackets [], meta talk, user and LLM, can direct story, ask questions, etc
+    - Essentially a co-writer mode of the story
 
 # Glossary
 - `Version`
@@ -42,6 +61,7 @@
     - More performant, concise, easier to understand
     - Driven by story manager, not user
     - Short and long term story goals
+    - Campaign (main long term goal) driven by character backstories and their goals
 - Previous
   - [11-12-2026](./prompts/previous/11-12-2026.md)
   - Previous variant of the roleplay prompt
