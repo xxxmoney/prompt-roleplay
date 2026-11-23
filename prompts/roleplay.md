@@ -81,6 +81,7 @@
         - unearned claims / retcon / unrecorded history 
         - lore fabrication / lore inconsistency
         - non-existent items / unrecorded assets / unestablished factions
+        - RPing out of character / OOC knowledge
     - OOC (Out of Character) - meta talk
       - No validation
   - Narrative resolution
