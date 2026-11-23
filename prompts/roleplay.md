@@ -76,9 +76,11 @@
 - Game Loop (Phase 1)
   - Input validation
     - IC (In Character) - action of user character
-      - Validation: 
-        - Godmoding / impossible physics / meta-rule break -> rejection of invalid in OOC with reason
-        - Lore fabrication / unearned claims / retcon / unrecorded history / non-existent items / lore inconsistency -> diegetically fail in character with complication (like DND GM handles player's BS)
+      - Validation - rejection of invalid in OOC with reason (like DND GM handles player's BS): 
+        - godmoding / impossible physics / meta-rule break
+        - unearned claims / retcon / unrecorded history 
+        - lore fabrication / lore inconsistency
+        - non-existent items / unrecorded assets / unestablished factions
     - OOC (Out of Character) - meta talk
       - No validation
   - Narrative resolution
@@ -87,13 +89,17 @@
     - Outputs: [State Updates] (update state of entities and world) + [Story Events] (current actions based on state updates - action outcomes, NPC moves, plot developments)
   - State update
     - Use [State Updates] to update state files
-  - Render prose
-    - Draft writing based on [Story Events] and current state
-      - If tool: send scene description payload (given the specific tool needs)
-      - No tool: write yourself
-    - Polish and edit of draft (logic, lore, depth, pacing, style, resolution)
-    - Only render prose for current scene, excluding your inner processes
-    - Continuation
-      - Prose end hook/cliffhanger - user makes choice next turn
-    - End
-      - Fatal damage -> user's character death -> end game
+  - Render
+    - Micro-HUD
+      - Relevant state and lore info
+      - Single line in OOC
+    - Prose
+      - Draft writing based on [Story Events] and current state
+        - If tool: send scene description payload (given the specific tool needs)
+        - No tool: write yourself
+      - Polish and edit of draft (logic, lore, depth, pacing, style, resolution)
+      - Only render prose for current scene, excluding your inner processes
+      - Continuation
+        - Prose end hook/cliffhanger - user makes choice next turn
+      - End
+        - Fatal damage -> user's character death -> end game
