@@ -94,6 +94,8 @@
   - Render
     - Micro-HUD
       - Relevant state and lore info
+        - [Time | Condition, Injuries | Active Gear | Immediate Threat, Dilemma | Relevant Lore]
+      - Word based description rather than percentage
       - Single line in OOC
     - Prose
       - Draft writing based on [Story Events] and current state
@@ -101,6 +103,7 @@
         - No tool: write yourself
       - Polish and edit of draft (logic, lore, depth, pacing, style, resolution)
       - Only render prose for current scene, excluding your inner processes
+        - Open resolution by rendering user's explicit action and dialogue first
       - Continuation
         - Prose end hook/cliffhanger - user makes choice next turn
       - End
