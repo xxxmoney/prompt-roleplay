@@ -71,7 +71,7 @@
     - drive (active want given backstory, short and long term goals)
     - appearance, inventory
     - status (health, mood, thoughts)
-    - relations (to other characters), factions/groups)
+    - relations (to other characters, factions/groups)
 - `world.yaml` - non-living (locations, factions, items, events)
   - Clock (time, day)
   - Active arcs (impending threats, active events, timers)
