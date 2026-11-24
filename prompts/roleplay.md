@@ -45,6 +45,7 @@
   - Strict character's lore knowledge over meta knowledge
   - Agency of user's action over dictating user action
   - Characters drive story forward over passive characters waiting for user to act
+  - Characters clash given their goals, personality and backstory over characters not acting on their own
 - Stakes
   - Failing forward over dead-ends
   - Earned success over instant-win
@@ -62,14 +63,15 @@
   - Tier 1 (Background)
     - name, role, quirks
   - Tier 2 (Major characters)
-    - personality (likes, dislikes, quirks)
-    - mask (public persona, defense mechanisms, speech patterns, social behavior)
+    - identity (name, role, age, gender, race)
+    - special (skills, abilities, powers)
+    - personality (likes, dislikes, quirks, persona, defense mechanisms, speech patterns, social behavior)
+      - has two layers - public (mask) and private (real)
     - ghost (past trauma, bittersweet backstory, regrets, secrets)
-    - drive (active want driving plot, long-term goal)
+    - drive (active want given backstory, short and long term goals)
     - appearance, inventory
     - status (health, mood, thoughts)
-    - relations (to other characters), factions/groups
-    - drives (short/long term goals)
+    - relations (to other characters), factions/groups)
 - `world.yaml` - non-living (locations, factions, items, events)
   - Clock (time, day)
   - Active arcs (impending threats, active events, timers)
